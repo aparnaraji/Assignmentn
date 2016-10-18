@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<style type="text/css">
+		form{
+			width: 500px;
+			background-color:#fcf8e3;
+			margin-top: 30px;
+			padding: 30px;
+		}
+		form input{
+			margin-left: 20px;
+		}
+		.sign{
+			background-color: grey;
+			color: #fff;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+<form class="col-xs-offset-4" name="form_name" action="login" method="post">
+	<div class="form-group">
+	<label class="col-xs-2">Username:</label><input type="text" name="user">
+	</div>
+
+	<div class="form-group">
+	<label  class="col-xs-2">Name:</label><input type="text" name="name">
+	</div>
+
+	<div class="form-group">
+	<label class="col-xs-2">Password:</label><input type="password" name="pass">
+	</div>
+	<input class="sign" type="submit" name="signin" value="Sign Up">
+</form>  
+
+</body>
+</html>
